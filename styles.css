@@ -22,13 +22,9 @@ body {
   }
 }
 
-header * {
+header p {
   float: right;
   text-align: right;
-}
-
-header *:first-child {
-  float: left;
 }
 
 h1, h2, h3, h4, p, li, a {
@@ -39,6 +35,7 @@ h1, h2, h3, h4, p, li, a {
 
 p {
   font-weight: 400;
+  margin-top: 8.5px;
 }
 
 h2 {
@@ -82,11 +79,14 @@ li {
 
   h2 {
     color: red;
-    margin-top: 17px;
   }
 
-  h3, ul {
+  h2, h3, ul {
     margin-top: 10px;
+  }
+
+  p {
+    margin-top: 5px;
   }
 
   .date {
